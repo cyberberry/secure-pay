@@ -10,8 +10,8 @@
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/cyberberry/secure-pay.git
+   cd secure-pay
 
 2. **Build and start the containers**
 
@@ -36,28 +36,43 @@
     **Admin User:**
     
     Email: admin@example.com
+
     Password: admin
+
     Balance: 100
+
     Role: ADMIN
+
     Active: true
+
     Blocked: false
     
     **Inactive Client User:**
     
     Email: client_inactive@example.com
+
     Password: client
+
     Balance: 100
+
     Role: CLIENT
+    
     Active: false
+
     Blocked: false
     
     **Active Client User:**
     
     Email: client_active@example.com
+
     Password: client
+
     Balance: 100
+
     Role: CLIENT
+    
     Active: true
+    
     Blocked: false
 
 These users will be available in the database when the application is first started.
